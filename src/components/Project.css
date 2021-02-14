@@ -1,0 +1,48 @@
+.project {
+  border-width: 8px;
+  padding: 1.5rem;
+  border: #bd75c2 1px solid;
+  border-radius: 8px;
+  background-color: #7c3381;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.site-link {
+  color: white;
+  text-decoration: none;
+}
+.site-link:hover {
+  text-decoration: none;
+  color: #ccc;
+}
+.img-container {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+.mid-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.logo-area {
+  justify-content: space-around;
+  display: flex;
+  /* flex-direction: column; */
+}
+@media screen and (max-width: 450px) {
+  .logo-area {
+    flex-direction: column;
+  }
+}
+
+.link-area {
+  font-size: 15px;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+.link-area p a {
+  font-size: 12px;
+}

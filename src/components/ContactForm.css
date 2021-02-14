@@ -1,0 +1,9 @@
+.contact-area {
+    border-width: 8px;
+    padding: 1.5rem;
+    border: #ff781f 1px solid;
+    border-radius: 8px;
+    background-color: #ff9d5c;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #282c34;
+
+
+}
+
+.App-logo {
+  height:160px;
+  /* pointer-events: none; */
+}
+
+
+
+.App-logo:hover {
+   /* height: 190px; */
+    /* transition: all 0.3s ease-in-out; */
+}
+  
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.bio-area{
+  border-width: 8px;
+  padding: 1.5rem;
+  border: #27e8a7 1px solid;
+  border-radius: 8px;
+  background-color: #42675a;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+}
+.button-area{
+  padding: 1.5rem;
+ margin-bottom:0 ;
+ padding-bottom: 0;
+ font-size: 18px;
+}
+.button-area div{
+  margin-right: 5px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(280deg);
+  }
+  to {
+    transform: rotate(320deg);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .sm-hide {
+    display: none;
+  }
+}
