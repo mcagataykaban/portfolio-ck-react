@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import React, { useState } from "react";
 import "./App.css";
-import sticker from "./images/cagatayemoji.webp";
+import sticker from "./images/cagatayemoji.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import ButtonCircle from "./components/ButtonCircle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
